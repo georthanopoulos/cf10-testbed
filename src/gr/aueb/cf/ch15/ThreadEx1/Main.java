@@ -19,10 +19,13 @@ public class Main {
 //        thread3.start();
 
         //Method Reference
-        new Thread(doc::print).start();
+        Thread thread1 = new Thread(doc::print);
+        thread1.start();
 
-        new Thread(phot::print).start();
+        Thread thread2 = new Thread(phot::print);
+        thread2.start();
 
-        new Thread(bok::print).start();
+        Thread thread3 = new Thread(bok::print);
+        thread3.start();
     }
 }
