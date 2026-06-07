@@ -4,6 +4,10 @@ public class Photo2 implements Printable2 {
 
     String photoName;
 
+    public Photo2() {
+
+    }
+
     public Photo2(String photoName) {
         this.photoName = photoName;
     }

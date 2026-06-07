@@ -4,6 +4,10 @@ public class Invoice implements Printable2 {
 
     String invoiceName;
 
+    public Invoice() {
+
+    }
+
     public Invoice(String invoiceName) {
         this.invoiceName = invoiceName;
     }

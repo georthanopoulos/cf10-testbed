@@ -4,6 +4,10 @@ public class Document2 implements Printable2 {
 
    String docName;
 
+   public Document2() {
+
+   }
+
    public Document2(String docName) {
        this.docName = docName;
    }
