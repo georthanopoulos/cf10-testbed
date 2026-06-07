@@ -1,4 +1,4 @@
-package gr.aueb.cf.ch15;
+package gr.aueb.cf.ch15.ThreadEx1;
 
 public class Document implements Printable {
 
